@@ -13,7 +13,7 @@ async def send_daily_message(): #실행시킬 함수명 임의지정
     await bot.send_message(chat_id,message)
 
 
-target_time = "2024-01-11 09:00:10"
+target_time = "2024-01-11 02:40:10"
 clock = datetime.datetime.strptime(target_time, "%Y-%m-%d %H:%M:%S")
 import time
 
